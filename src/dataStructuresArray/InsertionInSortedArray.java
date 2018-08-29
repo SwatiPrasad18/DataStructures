@@ -7,6 +7,9 @@
  */
 
 package dataStructuresArray;
+
+import java.util.Arrays;
+
 public class InsertionInSortedArray {
 
 	
@@ -18,7 +21,7 @@ public class InsertionInSortedArray {
 		int key = 26;
 		
 		n = insertInSorted(ar, n, capacity, key);
-		System.out.println(n);
+		System.out.println(Arrays.toString(ar));
 	}
 	
 	public static int insertInSorted(int[] sort, int n, int capacity, int key)
